@@ -1,0 +1,13 @@
+.card-header {
+    text-align: center;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #0D6EFD;
+}

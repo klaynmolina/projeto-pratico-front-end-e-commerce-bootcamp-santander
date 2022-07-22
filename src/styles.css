@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-
-*{font-family: 'Zilla Slab', serif;}
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    border: none; 
+    outline: none; 
+    font-weight: 300; 
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+body{background-color: #f5f5f5;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}

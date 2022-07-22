@@ -1,18 +1,16 @@
-<div class="card shadow-sm" style="width: 70%">
+<div class="card shadow-sm" style="width: 80%">
     
     <img class="bd-placeholder-img card-img-top" width="20%" src='{{"assets/images/" + livro.Id + ".jpg"}}' alt="" >
     
-    <div class="card-body">
+    <div class=" card-body">
         <p class="card-text">{{"Id: " + livro.Id}}</p>
         <p class="card-text">{{"Nome: " + livro.Name}}</p>
-        <p class="card-text">{{"Preço: " + livro.Price}}</p>
-        <p class="card-text">{{"Quantidade: " + livro.Quantity}}</p>
+        <p class="card-text">{{"Preço: R$ " + livro.Price}}</p>
         <p class="card-text">{{"Categoria: " + livro.Category}}</p>
-
 
         <div class="btn-group">
             <button type="button" class="btn btn-sm btn-primary">Comprar</button>
-            <button type="button" class="btn btn-sm btn-outline-primary">Detalhes</button>
+            <button type="button" class="btn btn-sm btn-primary">Detalhes</button>
         </div>
     </div>
 </div>

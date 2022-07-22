@@ -1,0 +1,12 @@
+.card{ 
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #0D6EFD;
+}
+.btn-group{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
