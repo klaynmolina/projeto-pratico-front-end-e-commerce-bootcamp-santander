@@ -3,7 +3,7 @@ import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Injectable()
 export class BookService {
-    private url = "https://my-json-server.typicode.com/klaynmolina/book-api/livros";
+    private url = "https://my-json-server.typicode.com/klaynmolina/book-json/livros";
 
     httpOptions = {
         Headers: new HttpHeaders({'Content-Type': 'application/json'})
